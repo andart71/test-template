@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "builds": [{ "src": "index.ts", "use": "@now/node-server" }],
+  "builds": [{ "src": "index.ts", "use": "@vercel/node" }],
   "routes": [
     { "src":  "/api/hook", "dest": "/index.ts" }
   ]
